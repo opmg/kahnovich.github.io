@@ -148,7 +148,7 @@ html, body {
     height: 100vh;
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .visible-xxs {
@@ -168,6 +168,7 @@ html, body {
     width: 100%;
     background-color: transparent;
     z-index: 5;
+    border-bottom: 2px solid black;
 }
 
 .site-logo img {
@@ -574,4 +575,7 @@ a.icon-up-bg:hover {color: #212121;}
     line-height: 40px;
     color: #fff;
     text-align: center;
+}
+#portfolioItem1 img{
+    margin-top: 10px;
 }
