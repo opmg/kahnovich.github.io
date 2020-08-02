@@ -65,7 +65,7 @@
 	}
 
 	.hero img {
-		height: 420px;
+		height: 600px;
 	}
 
 	/* SITEMAIN
@@ -133,6 +133,11 @@
 }
 
 /* Small Devices, Tablets */
+@media only screen and (max-width : 500px) {
+	.hero img {
+		height: 360px
+	}	
+}
 @media only screen and (max-width : 767px) {
 	/* CUSTOM RESETS
 	================================================== */
@@ -307,9 +312,7 @@
 		margin-bottom: 20px;
 	}
 
-	.hero img {
-		height: 360px
-	}
+	
 
 	/* SITEMAIN
 	================================================== */
