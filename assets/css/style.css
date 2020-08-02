@@ -69,7 +69,7 @@ h4 {
 .btn {
     min-width: 145px;
     line-height: 50px;
-    padding: 0 30px;
+    padding: 0 10px;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -168,7 +168,6 @@ html, body {
     width: 100%;
     background-color: transparent;
     z-index: 5;
-    border-bottom: 2px solid black;
 }
 
 .site-logo img {
@@ -213,9 +212,7 @@ html, body {
 ================================================== */
 .hero { 
     background: url(../img/hero.jpg) no-repeat center / cover; 
-    height: 100%;
     width: 100%;
-    min-height: 700px;
 }
 
 .hero .container {
@@ -578,4 +575,10 @@ a.icon-up-bg:hover {color: #212121;}
 }
 #portfolioItem1 img{
     margin-top: 10px;
+}
+.main{
+    margin-top: 20vh;
+}
+.mainImg{
+    margin-top: 12vh;
 }
