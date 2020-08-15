@@ -670,3 +670,8 @@ a.icon-up-bg:hover {color: #212121;}
         opacity: 1
     }
 }
+
+.soc:hover, focus{
+    box-shadow: 5px 5px 30px 0px rgba(76, 117, 163, 0.9);
+    border-radius: 50%;
+}
