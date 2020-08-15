@@ -397,6 +397,14 @@
 		height: 250px;
 	}
 
+	.slider .item img{
+		height: 200px;
+	}
+
+	.slider{
+		height: 200px;
+	}
+
 	/* FOOTER
 	================================================== */
 	.site-footer .col-xs-12 {
