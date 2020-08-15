@@ -12,11 +12,11 @@
 	/* HERO
 	================================================== */
 	.hero {
-		min-height: 600px;
+		min-height: 750px;
 	}
 
 	.hero img {
-		height: 500px;
+		height: 600px;
 	}
 
 	/* SITEMAIN
@@ -65,7 +65,7 @@
 	}
 
 	.hero img {
-		height: 600px;
+		height: 550px;
 	}
 
 	/* SITEMAIN
@@ -135,7 +135,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 500px) {
 	.hero img {
-		height: 360px
+		height: 425px
 	}	
 }
 @media only screen and (max-width : 767px) {
