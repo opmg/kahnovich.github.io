@@ -1,21 +1,13 @@
-/*
- * Theme Name: 
- * Theme URI: 
- * Author: Milan Savov
- * Author URI/Mail: milan.savov@gmail.com
- * Version: 1.0
- * */
-
 /* FONT
 ================================================== */
 @font-face {
   font-family: 'fontello';
-  src: url('../fonts/fontello.eot?37927580');
-  src: url('../fonts/fontello.eot?37927580#iefix') format('embedded-opentype'),
-       url('../fonts/fontello.woff2?37927580') format('woff2'),
-       url('../fonts/fontello.woff?37927580') format('woff'),
-       url('../fonts/fontello.ttf?37927580') format('truetype'),
-       url('../fonts/fontello.svg?37927580#fontello') format('svg');
+  src: url('../fonts/fontello.eot?27727428');
+  src: url('../fonts/fontello.eot?27727428#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?27727428') format('woff2'),
+       url('../fonts/fontello.woff?27727428') format('woff'),
+       url('../fonts/fontello.ttf?27727428') format('truetype'),
+       url('../fonts/fontello.svg?27727428#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -38,12 +30,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
  
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-facebook:before { content: '\f09a'; } /* '' */
-.icon-gplus:before { content: '\f0d5'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-up:before { content: '\f176'; } /* '' */
+.icon-phone:before { content: '\e800'; } /* '' */
+.icon-github-circled:before { content: '\e801'; } /* '' */
+.icon-up:before { content: '\e802'; } /* '' */
+.icon-vkontakte:before { content: '\f189'; } /* '' */
+.icon-telegram:before { content: '\f2c6'; } /* '' */
 
 /* CUSTOM RESETS
 ================================================== */
@@ -541,6 +532,7 @@ html, body {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 50%;
+    font-size: 22px;
 }
 
 .icon + .icon {
@@ -563,10 +555,9 @@ html, body {
     -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
-a.twitter-bg:hover {color: #55acee;}
-a.facebook-bg:hover{color: #3b5998;}
-a.gplus-bg:hover{color: #007bb5;} 
-a.linkedin-bg:hover {color: #dd4b39;}
+a.icon-vkontakte-bg:hover {color: #4a76a8;}
+a.icon-telegram-bg:hover{color: #0088cc;}
+a.icon-github-circled-bg:hover{color: #212121;} 
 a.icon-up-bg:hover {color: #212121;}
 
 .copyright {
@@ -678,4 +669,8 @@ a.icon-up-bg:hover {color: #212121;}
 
 .socDiv{
     margin-top: 30px;
+}
+
+.tel{
+    font-size: 18px;
 }
